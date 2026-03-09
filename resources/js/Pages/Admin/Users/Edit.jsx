@@ -23,7 +23,9 @@ export default function Edit({ user }) {
                     data-aos="fade-up"
                     className="bg-white shadow-xl rounded-2xl p-10 max-w-lg w-full mx-auto"
                 >
-                    <h1 className="text-3xl font-bold mb-6 text-gray-900">{lt.editUser}</h1>
+                    <h1 className="text-3xl font-bold mb-6 text-gray-900">
+                        {lt.editUser}
+                    </h1>
                     <form
                         onSubmit={handleSubmit}
                         className="flex flex-col gap-4"
